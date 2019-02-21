@@ -218,6 +218,8 @@ void draw() {
 		aa += (noise_del * 0.5);
 		//aa += noise_del;
 	*/
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 //void mouseWheel(MouseEvent event) {

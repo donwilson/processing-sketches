@@ -56,4 +56,6 @@ void draw() {
 		num_tris++;
 		aa_step *= 0.9;
 	}
+	
+	if(frameCount == 150) { save("preview.png"); }
 }

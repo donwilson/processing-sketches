@@ -51,4 +51,6 @@ void draw() {
 	xx += xx_delta;
 	yy += yy_delta;
 	cc += 0.1;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

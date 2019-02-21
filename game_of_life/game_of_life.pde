@@ -70,6 +70,8 @@ void draw() {
 	}
 	
 	grid = copyGrid(new_grid);
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 

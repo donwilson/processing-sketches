@@ -54,4 +54,6 @@ void draw() {
     b.update();
     //b.show();
   }
+  
+  if(frameCount == 50) { save("preview.png"); }
 }

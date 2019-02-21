@@ -46,4 +46,6 @@ void draw() {
       rose(n, d);
     }
   }
+  
+  if(frameCount == 50) { save("preview.png"); }
 }

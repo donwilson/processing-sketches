@@ -59,6 +59,8 @@ void draw() {
 	}
 	
 	pop();
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseReleased() {

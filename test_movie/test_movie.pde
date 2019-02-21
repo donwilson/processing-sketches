@@ -193,6 +193,8 @@ void draw() {
 	}
 	
 	//image(pg, 0, 0);
+	
+	if(frameCount == 150) { save("preview.png"); }
 }
 
 void movieEvent(Movie m) {

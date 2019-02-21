@@ -79,4 +79,6 @@ void draw() {
 		shapes[ i ].update();
 		shapes[ i ].render();
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

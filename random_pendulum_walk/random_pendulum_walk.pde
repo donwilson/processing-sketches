@@ -21,4 +21,6 @@ void draw() {
 	for(int i = 0; i < liner.length; i++) {
 		liner[ i ].drawForeground();
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

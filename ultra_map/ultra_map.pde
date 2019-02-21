@@ -138,6 +138,8 @@ void draw() {
 		popMatrix();
 		popStyle();
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseDragged() {

@@ -30,6 +30,8 @@ void draw() {
   }
   
   a += (1 / frameRate);
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 

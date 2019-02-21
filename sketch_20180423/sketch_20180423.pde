@@ -91,4 +91,6 @@ void draw() {
 	pg.endDraw();
 	
 	image(pg, 0, 0, 600, 600);
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

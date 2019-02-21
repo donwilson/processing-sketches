@@ -238,6 +238,8 @@ void draw() {
 	popMatrix();
 	
 	aa += color_speed;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 //void mousePressed() {

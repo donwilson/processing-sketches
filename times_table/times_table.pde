@@ -145,4 +145,6 @@ void draw() {
   }*/
   times += 0.01;
   times = min(times, 200);
+  
+  if(frameCount == 50) { save("preview.png"); }
 }

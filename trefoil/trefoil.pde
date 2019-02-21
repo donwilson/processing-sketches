@@ -79,4 +79,6 @@ void draw() {
 	pop();
 	
 	rotation_y += 0.01;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

@@ -87,6 +87,8 @@ void draw() {
 	scroll_cooling_map_up();
 	
 	println(frameRate);
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void fillTouchedArea(int mX, int mY) {

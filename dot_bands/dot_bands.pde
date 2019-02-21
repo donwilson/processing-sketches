@@ -44,4 +44,6 @@ void draw() {
 	
 	popStyle();
 	popMatrix();
+	
+	if(frameCount == 250) { save("preview.png"); }
 }

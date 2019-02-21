@@ -11,4 +11,6 @@ void draw() {
   translate((width / 2), (height / 2));
   sun.show();
   sun.orbit();
+  
+  if(frameCount == 50) { save("preview.png"); }
 }

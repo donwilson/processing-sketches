@@ -64,4 +64,6 @@ void draw() {
 	if(SAVE_FRAMES) {
 		saveFrame("frames/line-######.jpg");
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

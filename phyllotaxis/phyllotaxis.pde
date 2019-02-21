@@ -111,4 +111,6 @@ void draw() {
 		resetBoard();
 		delay(1000);
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

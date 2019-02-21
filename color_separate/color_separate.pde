@@ -48,6 +48,8 @@ void setup() {
   }
   
   updatePixels();
+  
+  save("preview.png");
 }
 
 void draw() {

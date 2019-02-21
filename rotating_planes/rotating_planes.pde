@@ -67,4 +67,6 @@ void draw() {
 	}
 	
 	aa += 1;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

@@ -55,6 +55,8 @@ void draw() {
   
   animating = false;
   
+  if(frameCount == 5) { save("preview.png"); }
+  
   noLoop();
 }
 

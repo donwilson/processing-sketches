@@ -32,6 +32,8 @@ void draw() {
     endShape(CLOSE);
     pop();
   }
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 void push() {

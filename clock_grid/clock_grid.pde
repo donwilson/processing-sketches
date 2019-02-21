@@ -32,4 +32,6 @@ void draw() {
 			clocks[ y ][ x ].draw();
 		}
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

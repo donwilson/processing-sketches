@@ -127,6 +127,8 @@ void draw() {
 		popStyle();
 		popMatrix();
 	}*/
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 color determineColor(float x, float y) {

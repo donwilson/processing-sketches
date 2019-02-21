@@ -110,4 +110,6 @@ void draw() {
 	
 	
 	dd += step;//dd = (dd + step);
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

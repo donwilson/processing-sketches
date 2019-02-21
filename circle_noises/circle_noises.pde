@@ -51,4 +51,6 @@ void draw() {
 	}
 	
 	aa += aa_step;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

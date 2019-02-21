@@ -97,4 +97,6 @@ void draw() {
 		
 		angle = 0;
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

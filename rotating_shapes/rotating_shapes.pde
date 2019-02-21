@@ -38,4 +38,6 @@ void draw() {
 		rotation_angle = 0;
 		num_points++;
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

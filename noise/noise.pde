@@ -81,6 +81,8 @@ void draw() {
   //b += ((frameRate / 60) * bps);
   b += ((frameRate / 60) / 60) * bps;
   //b += (a / frameRate);
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseWheel(MouseEvent event) {

@@ -29,4 +29,6 @@ void draw() {
 		tile.update();
 		tile.draw();
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

@@ -125,6 +125,8 @@ void setup() {
 	draw_containedStretch(1920, 1080);
 	
 	draw_debugBorders();
+	
+	save("preview.png");
 }
 
 // needed for escape key to work

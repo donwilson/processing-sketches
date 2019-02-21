@@ -37,6 +37,8 @@ void draw() {
 	}
 	
 	yyy += 4;
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 color fi(float i) {

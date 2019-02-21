@@ -21,6 +21,8 @@ void draw() {
   if((bb >= 0.03) || (bb <= -0.05)) {
   	bb_inc *= -1;
   }
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 void mousePressed() {

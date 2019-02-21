@@ -206,4 +206,6 @@ void draw() {
   fill(255);
   ellipse(x1, y1, 6, 6);
   ellipse(x2, y2, 6, 6);
+  
+  if(frameCount == 150) { save("preview.png"); }
 }

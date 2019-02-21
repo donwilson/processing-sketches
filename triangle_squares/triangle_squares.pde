@@ -21,6 +21,8 @@ void draw() {
 			);
 		}
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void drawFigure(float offset_x, float offset_y) {

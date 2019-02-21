@@ -66,6 +66,8 @@ void draw() {
 	}
 	
 	table.render();
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseWheel(MouseEvent event) {

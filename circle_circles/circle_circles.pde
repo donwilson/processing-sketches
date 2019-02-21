@@ -41,9 +41,11 @@ void draw() {
 		bb %= 360;
 	}
 	
+	endShape();
+	
 	aa += 0.02;
 	
 	aa %= 360;
 	
-	endShape();
+	if(frameCount == 150) { save("preview.png"); }
 }

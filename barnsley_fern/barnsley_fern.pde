@@ -5,6 +5,8 @@ void setup() {
 	background(255);
 	
 	createFern(640, 640);
+	
+	save("preview.png");
 }
 
 void createFern(int w, int h) {

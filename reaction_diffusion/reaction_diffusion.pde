@@ -87,6 +87,8 @@ void draw() {
 	}
 	
 	updatePixels();
+	
+	if(frameCount == 450) { save("preview.png"); }
 }
 
 

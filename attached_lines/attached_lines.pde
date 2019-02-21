@@ -40,4 +40,6 @@ void draw() {
 	if(aa > num_lines) {
 		num_lines += 1;
 	}
+	
+	if(frameCount == 150) { save("preview.png"); }
 }

@@ -50,6 +50,8 @@ void draw() {
 	
 	asteroid.update();
 	asteroid.render();
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void mousePressed() {

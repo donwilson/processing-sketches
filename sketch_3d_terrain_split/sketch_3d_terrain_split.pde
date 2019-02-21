@@ -112,6 +112,8 @@ void draw() {
   //if(!animating) {
   //  noLoop();
   //}
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseClicked() {

@@ -61,4 +61,6 @@ void draw() {
     y.update(angleStep);
     y.display();
   }
+  
+  if(frameCount == 50) { save("preview.png"); }
 }

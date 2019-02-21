@@ -84,6 +84,8 @@ void draw() {
 	}
 	
 	aa += rotate_speed;
+	
+	if(frameCount == 440) { save("preview.png"); }
 }
 
 void scrolledDown() {

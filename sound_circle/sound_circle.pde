@@ -72,4 +72,6 @@ void draw() {
 			sample_dots.remove(i);
 		}
 	}
+	
+	if(frameCount == 400) { save("preview.png"); }
 }

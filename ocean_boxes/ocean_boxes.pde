@@ -67,6 +67,8 @@ void draw() {
   }
 
   zz += 0.01;
+  
+  if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseWheel(MouseEvent event) {

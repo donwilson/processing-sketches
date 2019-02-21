@@ -35,6 +35,8 @@ void draw() {
 	//debug__CenterX();
 	
 	//noLoop();
+	
+	if(frameCount == 50) { save("preview.png"); }
 }
 
 void mouseReleased() {

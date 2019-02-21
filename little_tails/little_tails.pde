@@ -10,4 +10,6 @@ void draw() {
 	
 	tails.update();
 	tails.draw();
+	
+	if(frameCount == 350) { save("preview.png"); }
 }

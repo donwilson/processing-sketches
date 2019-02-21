@@ -138,4 +138,6 @@ void draw() {
 		l.draw();
 		l.update();
 	}
+	
+	if(frameCount == 50) { save("preview.png"); }
 }

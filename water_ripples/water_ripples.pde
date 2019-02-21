@@ -61,4 +61,6 @@ void draw() {
 	float[][] temp = previous;
 	previous = current;
 	current = temp;
+	
+	if(frameCount == 150) { save("preview.png"); }
 }
