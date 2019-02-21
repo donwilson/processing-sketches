@@ -161,7 +161,7 @@ void draw() {
 	aa += (noise_del * 0.5);
 	//aa += noise_del;
 	
-	println(frameRate);
+	//println(frameRate);
 	
 	/*
 		// WORKS:::
