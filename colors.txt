@@ -1,0 +1,2 @@
+color col_blue = color(21, 107, 193);
+color col_green = color(6, 229, 78);
